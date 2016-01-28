@@ -1,0 +1,1 @@
+splitmedia/resources/README.rst
