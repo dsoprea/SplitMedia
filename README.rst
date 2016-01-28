@@ -1,1 +1,1 @@
-splitmedia/resources/README.rst
+sm/resources/README.rst

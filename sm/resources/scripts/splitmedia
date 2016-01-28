@@ -4,7 +4,7 @@ import sys
 import os
 import argparse
 
-import splitmedia
+import sm.splitmedia
 
 def _get_arguments():
     parser = \
@@ -50,8 +50,8 @@ def _main():
         print("Media file needs to have a filename extension.")
         sys.exit(3)
 
-    offsets = splitmedia.process_list(list_filepath)
-    splitmedia.split_media(offsets, media_filepath, ext, output_path)
+    offsets = sm.splitmedia.process_list(list_filepath)
+    sm.splitmedia.split_media(offsets, media_filepath, ext, output_path)
 
 if __name__ == '__main__':
     _main()

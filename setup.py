@@ -1,9 +1,9 @@
 import setuptools
 import os.path
 
-import splitmedia
+import sm
 
-_APP_PATH = os.path.dirname(splitmedia.__file__)
+_APP_PATH = os.path.dirname(sm.__file__)
 
 with open(os.path.join(_APP_PATH, 'resources', 'README.rst')) as f:
       long_description = f.read()
@@ -13,7 +13,7 @@ with open(os.path.join(_APP_PATH, 'resources', 'requirements.txt')) as f:
 
 setuptools.setup(
     name='splitmedia',
-    version=splitmedia.__version__,
+    version=sm.__version__,
     description="Split one media file into many based on a list of offsets",
     long_description=long_description,
     classifiers=[],
@@ -27,12 +27,12 @@ setuptools.setup(
     zip_safe=False,
     install_requires=install_requires,
     package_data={
-        'mr': [
+        'sm': [
             'resources/README.rst',
             'resources/requirements.txt',
         ],
     },
     scripts=[
-        'splitmedia/resources/scripts/splitmedia',
+        'sm/resources/scripts/splitmedia',
     ],
 )

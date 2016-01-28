@@ -1,1 +1,1 @@
-splitmedia/resources/requirements.txt
+sm/resources/requirements.txt

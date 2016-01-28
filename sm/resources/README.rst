@@ -25,6 +25,7 @@ Splitting the Quake soundtrack::
     OFF 000:43:39.000 DUR 000388.000 08_Focus.m4a
     OFF 000:50:07.000 DUR 000213.000 09_Falling.m4a
     OFF 000:53:40.000 DUR 000315.000 10_TheReaction.m4a
+    ...
 
 
 Dependencies
