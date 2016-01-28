@@ -1,4 +1,4 @@
-This tool takes a media file and a list file with offsets and durations, and processes the list file to split the media file up into pieces using *[ffmpeg](https://www.ffmpeg.org)*.
+A tool that takes a media file and a list file with offsets and processes the list file to split the media file up into pieces using `ffmpeg <https://www.ffmpeg.org>`_.
 
 
 Usage
@@ -30,6 +30,7 @@ Splitting the Quake soundtrack::
 Dependencies
 ============
 
+- Python 2.7
 - `ffmpeg <https://www.ffmpeg.org>`_
 
 
